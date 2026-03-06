@@ -1,0 +1,15 @@
+{
+  "name": "quiz_spa",
+  "version": "1.0.0",
+  "main": "route.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
