@@ -1,0 +1,142 @@
+.answer-page {
+    padding-top: 20px;
+    padding-bottom: 106px;
+}
+
+.answer-pre-title {
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+.answer-pre-title-text {
+    color: #DCDCF3;
+}
+
+.answer-pre-title-test-name {
+    color: #6933DC;
+}
+
+.user-data {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.user-data span {
+    color: #6933DC;
+}
+
+.question {
+    margin-top: 60px;
+}
+
+.question {
+    margin-bottom: 60px;
+}
+
+.question-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 43px;
+}
+
+.question-title span {
+    color: #6933DC;
+}
+
+.question-options {
+    margin-top: 40px;
+}
+
+.question-option {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.question-option.right {
+    color: #5FDC33;
+}
+
+.question-option.wrong {
+    color: #DC3333;
+}
+
+.question-option label {
+    cursor: pointer;
+}
+input[type="radio"] {
+    appearance: none;
+    ~webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #6933DC;
+    border-radius: 50%;
+    margin: 0 13px 0 0;
+    transform: translateY(2px);
+
+    display: grid;
+    place-content: center;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px #6933DC;
+    transition: .2s ease transition;
+    transform: scale(0);
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+.question-option.right input[type="radio"] {
+    border: 6px solid #5FDC33;
+}
+
+.question-option.wrong input[type="radio"] {
+    border: 6px solid #DC3333;
+}
+
+.back-to-result {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-to-result a {
+    display: flex;
+    align-items: center;
+    color: #6933DC;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.back-to-result a:hover {
+    text-decoration: underline;
+}
+
+.back-to-result a img {
+    margin-left: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
