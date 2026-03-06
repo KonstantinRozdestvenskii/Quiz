@@ -4,12 +4,12 @@
 }
 
 @font-face{
-    src: url("../static/fonts/MuseoSansCyrl-500.ttf");
+    src: url("../fonts/MuseoSansCyrl-500.ttf");
     font-family: 'Museo Sans Cyrl';
 }
 
 @font-face{
-    src: url("../static/fonts/MuseoSansCyrl-700.ttf");
+    src: url("../fonts/MuseoSansCyrl-700.ttf");
     font-family: 'Museo Sans Cyrl';
     font-weight: bold;
 }
